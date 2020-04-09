@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>pin.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Jefferson</Authors>
+    <Company>Online2b</Company>
+    <Product>PINGenerator</Product>
+    <PackageId>PINGenerator</PackageId>
+    <PackageProjectUrl>https://dev.azure.com/online2b/</PackageProjectUrl>
+    <PackageIcon>pin.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://dev.azure.com/online2b/</RepositoryUrl>
+    <RepositoryType>Security</RepositoryType>
+    <PackageTags>Security</PackageTags>
+    <Description>O PIN Generator tem a função de gerar e validar um PIN. Este é expirado a cada 30 segundos.</Description>
+    <PackageReleaseNotes>Construção da biblioteca</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="pin.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
